@@ -1,0 +1,91 @@
+h1{text-align: center}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 10px;
+    justify-items: stretch;
+
+
+}
+
+.frase1{
+
+background-color: rgba(212, 100, 100, 0.8);
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  grid-column: 1 / 3;
+
+
+}
+.frase2{
+
+    background-color: rgba(125, 148, 127, 0.8);
+      text-align: center;
+      padding: 10px;
+      font-size: 20px;
+      grid-column: 2/ 4;
+      grid-row: 1/3;
+      
+    
+    }
+.frase3{
+
+        background-color: rgba(182, 170, 226, 0.8);
+          text-align: center;
+          padding: 10px;
+          font-size: 20px;
+          grid-rows: 3 / 4,
+        }
+ .frase4{
+
+       background-color: rgba(226, 241, 87, 0.8);
+       text-align: center;
+       padding: 10px;
+       font-size: 20px;
+            order: -4;
+            }
+ .frase5{
+
+        background-color: rgba(241, 87, 172, 0.8);
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+                     
+                     }
+
+ .frase6{
+
+        background-color: rgba(36, 187, 36, 0.8);
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        grid-column: 2 / span 3;
+                             
+          }
+          
+
+ .frase7{
+
+        background-color: rgba(235, 64, 64, 0.8);
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        grid-column: 2 / 5;
+        
+
+         }
+img{
+  width: 100%;
+  height: 100%;
+
+}
+
+a{
+    color: black;
+    text-decoration:none;
+}
+a:hover{
+    color: chartreuse;
+}
